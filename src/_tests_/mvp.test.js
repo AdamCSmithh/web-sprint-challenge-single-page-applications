@@ -10,7 +10,7 @@ import "@testing-library/jest-dom";
 jest.mock('axios')
 
 describe("Pizza test, sprint 3 challenge", () => {
-  it('Homepage at "/" route, has link or button with #order-pizza', () => {
+   it('Homepage at "/" route, has link or button with #order-pizza', () => {
     const history = createMemoryHistory()
     render(
       <Router history={history}>
